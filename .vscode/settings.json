@@ -1,0 +1,23 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".dart_tool": true,
+        ".idea": true,
+        ".vscode": true,
+        "android": true,
+        "build": true,
+        "test": true,
+        ".gitignore": true,
+        ".metadata": true,
+        "analysis_options.yaml": true,
+        "pubspec.lock": true,
+        "README.md": true,
+        "sphere.iml": true
+    },
+    "explorerExclude.backup": {}
+}
