@@ -27,16 +27,33 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text('Sphere')),
+        title: Center(
+          child: Text(
+            'Sphere',
+            style: TextStyle(fontWeight: FontWeight.w700),
+          ),
+        ),
       ),
       body: Center(
-          child: Text(
-        'Test',
-        style: TextStyle(
-          fontSize: 25,
-          fontWeight: FontWeight.w600,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            IconButton(
+              iconSize: 150,
+              onPressed: () {},
+              icon: Image.asset('lib/assets/icon.png'),
+            ),
+            SizedBox(height: 20),
+            // Text('Sniper',
+            //     style: TextStyle(
+            //       fontSize: 25,
+            //       fontWeight: FontWeight.w600,
+            //     )),
+            // Image.asset('lib/assets/icon.png'),
+            // Image(image: AssetImage('lib/assets/icon.png')),
+          ],
         ),
-      )),
+      ),
     );
   }
 }
